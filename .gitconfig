@@ -14,8 +14,8 @@
     st = status
     ps = push
     pl = pull
-    reset = reset HEAD
-    rs = checkout --
+    rs = reset HEAD
+    rst = checkout --
     ra = checkout .
 [color]
     ui = auto
