@@ -80,7 +80,7 @@ function diff(arr1, arr2) {
 function compact(array) {
     var output = [];
     array.forEach(function (i) {
-        if (i) {
+        if (i != null) {
             output.push(i);
         }
     })
